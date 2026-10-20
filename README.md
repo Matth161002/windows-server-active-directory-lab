@@ -54,12 +54,12 @@ Created a Windows Server 2025 Evaluation virtual machine and a Windows 11 Enterp
 **Screenshot 1: Server role installation**
 
 ![Active Directory Domain Services role installed](03-adds-role-installed.png)
-_Add the screenshot showing the Active Directory Domain Services server role installed, if captured._
+Screenshot showing the Active Directory Domain Services server role installed.
 
 **Screenshot 2: Prerequisite checks**
 
 ![Active Directory Domain Services prerequisite checks passed](04-adds-prerequisite-checks-passed.png)
-_Add the screenshot showing the Active Directory Domain Services prerequisite checks, if captured._
+Screenshot showing the Active Directory Domain Services prerequisite checks.
 
 ### 2. Configure Active Directory Domain Services
 
@@ -72,7 +72,7 @@ The domain controller uses the static IPv4 address `172.20.50.10/24`.
 **Screenshot 3: Domain created**
 
 ![Domain created](05-domain-created.png)
-_Add the screenshot showing the domain creation or domain controller configuration. Use the screenshot you actually captured._
+Screenshot showing the domain creation or domain controller configuration.
 
 ### 3. Organise users and groups
 
@@ -88,12 +88,12 @@ The client computer object, `ITLAB-CLIENT01`, was moved into the `Workstations` 
 **Screenshot 4: Active Directory users and computers**
 
 ![Active Directory user management](06-active-directory-user-management.png)
-_Add a screenshot showing the OUs and user account._
+Screenshot showing the OUs and user account.
 
 **Screenshot 5: Security group membership**
 
 ![IT-Support security group membership](07-security-group-membership.png)
-_Add a screenshot showing the IT-Support group and its membership._
+Screenshot showing the IT-Support group and its membership.
 
 ### 4. Join the Windows 11 client to the domain
 
@@ -108,7 +108,7 @@ Confirmed that the client could resolve the domain to the domain controller addr
 **Screenshot 6: Client domain membership**
 
 ![Windows 11 client joined to the domain](08-client-domain-joined.png)
-_Add a screenshot showing the Windows 11 client joined to the domain, if captured._
+Screenshot showing the Windows 11 client joined to the domain.
 
 ### 5. Apply a Group Policy sign-in notice
 
@@ -131,7 +131,7 @@ Verified that `Staff - Sign-in Notice` appeared in the applied computer Group Po
 **Screenshot 7: Applied Group Policy**
 
 ![Group Policy sign-in notice](09-group-policy-sign-in-notice.png)
-_Add the screenshot showing the sign-in notice on the Windows login screen._
+Screenshot showing the sign-in notice on the Windows login screen.
 
 ## Verification
 
