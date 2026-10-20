@@ -88,7 +88,7 @@ The client computer object, `ITLAB-CLIENT01`, was moved into the `Workstations` 
 **Screenshot 4: Active Directory users and computers**
 
 ![Active Directory user management](06-active-directory-user-management.png)
-Screenshot showing the OUs and user account.
+_Screenshot showing the OUs and user account._
 
 **Screenshot 5: Security group membership**
 
