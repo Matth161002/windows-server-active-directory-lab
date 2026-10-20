@@ -189,25 +189,24 @@ The evaluation operating systems are intended for lab use. Do not expose this en
 
 ## Evidence and screenshots
 
-All seven screenshots are uploaded to the repository root and embedded above. If you add further evidence later, you can upload it to the repository and embed it using a Markdown image link, for example:
+All seven screenshots are uploaded to the repository root and embedded above. If you add further evidence later, upload it to the repository and embed it using a Markdown image link, for example:
 
 ```markdown
-![Domain created](screenshots/05-domain-created.png)
+![Domain created](05-domain-created.png)
 ```
 
-The images above are the evidence currently uploaded to this repository.
-
-Suggested repository layout once evidence is added:
+Current repository layout:
 
 ```text
 windows-server-active-directory-lab/
 ├── README.md
-└── screenshots/
-    ├── 05-domain-created.png
-    ├── 06-active-directory-user-management.png
-    ├── 07-security-group-membership.png
-    ├── 08-client-domain-joined.png
-    └── 09-group-policy-sign-in-notice.png
+├── 03-adds-role-installed.png
+├── 04-adds-prerequisite-checks-passed.png
+├── 05-domain-created.png
+├── 06-active-directory-user-management.png
+├── 07-security-group-membership.png
+├── 08-client-domain-joined.png
+└── 09-group-policy-sign-in-notice.png
 ```
 
 ## Further development
