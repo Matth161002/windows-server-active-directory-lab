@@ -53,12 +53,12 @@ Created a Windows Server 2025 Evaluation virtual machine and a Windows 11 Enterp
 
 **Screenshot 1: Server role installation**
 
-<!-- INSERT SCREENSHOT: screenshots/03-adds-role-installed.png -->
+![Active Directory Domain Services role installed](03-adds-role-installed.png)
 _Add the screenshot showing the Active Directory Domain Services server role installed, if captured._
 
 **Screenshot 2: Prerequisite checks**
 
-<!-- INSERT SCREENSHOT: screenshots/04-adds-prerequisite-checks-passed.png -->
+![Active Directory Domain Services prerequisite checks passed](04-adds-prerequisite-checks-passed.png)
 _Add the screenshot showing the Active Directory Domain Services prerequisite checks, if captured._
 
 ### 2. Configure Active Directory Domain Services
@@ -71,7 +71,7 @@ The domain controller uses the static IPv4 address `172.20.50.10/24`.
 
 **Screenshot 3: Domain created**
 
-<!-- INSERT SCREENSHOT: screenshots/05-domain-created.png -->
+![Domain created](05-domain-created.png)
 _Add the screenshot showing the domain creation or domain controller configuration. Use the screenshot you actually captured._
 
 ### 3. Organise users and groups
@@ -87,12 +87,12 @@ The client computer object, `ITLAB-CLIENT01`, was moved into the `Workstations` 
 
 **Screenshot 4: Active Directory users and computers**
 
-<!-- INSERT SCREENSHOT: screenshots/06-active-directory-user-management.png -->
+![Active Directory user management](06-active-directory-user-management.png)
 _Add a screenshot showing the OUs and user account._
 
 **Screenshot 5: Security group membership**
 
-<!-- INSERT SCREENSHOT: screenshots/07-security-group-membership.png -->
+![IT-Support security group membership](07-security-group-membership.png)
 _Add a screenshot showing the IT-Support group and its membership._
 
 ### 4. Join the Windows 11 client to the domain
@@ -107,7 +107,7 @@ Confirmed that the client could resolve the domain to the domain controller addr
 
 **Screenshot 6: Client domain membership**
 
-<!-- INSERT SCREENSHOT: screenshots/08-client-domain-joined.png -->
+![Windows 11 client joined to the domain](08-client-domain-joined.png)
 _Add a screenshot showing the Windows 11 client joined to the domain, if captured._
 
 ### 5. Apply a Group Policy sign-in notice
@@ -130,7 +130,7 @@ Verified that `Staff - Sign-in Notice` appeared in the applied computer Group Po
 
 **Screenshot 7: Applied Group Policy**
 
-<!-- INSERT SCREENSHOT: screenshots/09-group-policy-sign-in-notice.png -->
+![Group Policy sign-in notice](09-group-policy-sign-in-notice.png)
 _Add the screenshot showing the sign-in notice on the Windows login screen._
 
 ## Verification
@@ -189,13 +189,13 @@ The evaluation operating systems are intended for lab use. Do not expose this en
 
 ## Evidence and screenshots
 
-Place your screenshots in a folder named `screenshots/` at the repository root. Use the filenames listed in the placeholders above, then replace each HTML comment with a Markdown image link, for example:
+All seven screenshots are uploaded to the repository root and embedded above. If you add further evidence later, you can upload it to the repository and embed it using a Markdown image link, for example:
 
 ```markdown
 ![Domain created](screenshots/05-domain-created.png)
 ```
 
-Only add screenshots you actually captured. Some early setup screenshots may not have been saved during the build; do not recreate them solely to match the list. You can remove a placeholder if you do not have that evidence.
+The images above are the evidence currently uploaded to this repository.
 
 Suggested repository layout once evidence is added:
 
