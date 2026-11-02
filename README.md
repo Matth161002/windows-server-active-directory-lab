@@ -1,5 +1,5 @@
 # Windows Server 2025 Active Directory Lab
-
+Learning supported by Microsoft "Windows Server Deployment, configuration, and administration" learning path: https://learn.microsoft.com/api/achievements/share/en-us/MatthewHoward-2721/4CVWX5MK?sharingId=4724BB8F15AC511D
 A virtualised Windows Server 2025 lab built to practise core IT support and systems administration tasks, including Active Directory Domain Services (AD DS), Domain Name System (DNS), user and group management, domain joining, and Group Policy.
 
 > Lab status: This is an isolated learning environment, not a production deployment.
