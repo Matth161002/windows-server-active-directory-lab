@@ -2,7 +2,7 @@
 
 A virtualised Windows Server 2025 lab built to practise core IT support and systems administration tasks, including Active Directory Domain Services (AD DS), Domain Name System (DNS), user and group management, domain joining, and Group Policy.
 
-> **Lab status:** Core configuration completed. This is an isolated learning environment, not a production deployment.
+> **Lab status:**This is an isolated learning environment, not a production deployment.
 
 ## Objectives
 
